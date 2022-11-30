@@ -1,0 +1,32 @@
+{
+    "name": "Call of wlid",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "radio-broadcast": "*",
+        "arcade-minimap": "github:microsoft/arcade-minimap#v0.6.1",
+        "light": "*",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0",
+        "Call of wlid": "pkg:Call of wlid.json"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "Call of wlid.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.11.37",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
